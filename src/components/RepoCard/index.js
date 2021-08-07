@@ -12,9 +12,10 @@ function RepoCard({
   starsNumber,
   providerName,
   numberOfLines,
+  onPress
 }) {
   return (
-    <Pressable style={styles.container}>
+    <Pressable style={styles.container} onPress={onPress}>
       <View style={styles.contentContainer}>
         <Image style={styles.image} source={{ uri: imageSrc }}></Image>
         <View style={styles.rightView}>

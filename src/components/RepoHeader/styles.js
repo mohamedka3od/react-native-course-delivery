@@ -17,5 +17,7 @@ export default StyleSheet.create({
   text: {
     color: "white",
     fontSize: 24,
+    width:250,
+    flexWrap:"wrap"
   },
 });
